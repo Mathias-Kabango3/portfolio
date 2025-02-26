@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
 import StarIcon from "@/assets/icons/star.svg";
-import Book from "@/assets/images/book-cover.png";
+import Book from "@/assets/images/the_one_thing.jpg";
 import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import ReactIcon from "@/assets/icons/react.svg";

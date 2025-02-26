@@ -6,43 +6,49 @@ import Link from "next/link";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
+import game from "@/assets/images/game.jpg";
+import Restaurant from "@/assets/images/Restaurant.jpg";
+import code from "@/assets/images/API.jpg";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "static web page",
+    year: "Feb 2025",
+    title: "Gamehub",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Next.js" },
+      { title: "Typescript" },
+      { title: "TailwindCSS" },
+      { title: "ChakraUi" },
+      { title: "rawg (external api)" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://gamehub-ashy.vercel.app/",
+    image: game,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Littlelemon",
+    year: "Nov 2024",
+    title: "Littlelemon Restaurant ",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Django" },
+      { title: "DjangoRestFramework" },
+      { title: "MySQL" },
+      { title: "HTML & CSS" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://github.com/Mathias-Kabango3/LittleLemon-Restaurant-Website.git",
+    image: Restaurant,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Littlelemon API",
+    year: "June 2024",
+    title: "API",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Python & Django" },
+      { title: "Django DRF" },
+      { title: "MySQL" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://github.com/Mathias-Kabango3/LittleLemonApi.git",
+    image: code,
   },
 ];
 
@@ -59,7 +65,10 @@ export const ProjectsSection = () => {
           Featured Projects
         </h2>
         <p className="text-center text-white/60 mt-4 md:text-lg max-w-md mx-auto lg:text-xl">
-          How i TR
+          Explore some of the projects I&apos;ve worked on, highlighting my
+          skills in backend, frontend, and full-stack development. Each project
+          demonstrates my passion for building scalable, user-friendly
+          applications.
         </p>
         <div className="flex flex-col mt-10 gap-20 md:mt-20">
           {portfolioProjects.map((project) => (
