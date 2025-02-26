@@ -4,7 +4,7 @@ import ArrowDown from "@/assets/icons/arrow-down.svg";
 import dev from "@/assets/images/Dev.png";
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-24">
+    <div className="py-32 md:py-48 lg:py-24" id="home">
       <div className="container">
         <div className=" flex flex-col items-center">
           <Image src={dev} alt="open and close tags" className="size-[100px]" />
