@@ -10,7 +10,7 @@ export const HeroSection = () => {
           <Image src={dev} alt="open and close tags" className="size-[100px]" />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-2 rounded-lg">
             <div className="">
-              <h1 className="text-xl font-semibold bg-gradient-to-r from-emerald-300 to-teal-400 bg-clip-text text-transparent font-serif tracking-widest">
+              <h1 className="text-xl font-semibold bg-gradient-to-r from-emerald-300 to-teal-400 bg-clip-text text-transparent font-serif tracking-widest text-center">
                 &ldquo;Hi, I&apos;m Mathias Kabango!&rdquo;{" "}
               </h1>
             </div>
