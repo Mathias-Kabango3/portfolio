@@ -40,7 +40,7 @@ const toolboxIcons = [
 ];
 export const AboutSection = () => {
   return (
-    <div className="pb-20  flex items-center flex-col">
+    <div className="pb-20  flex items-center flex-col" id="about">
       <div className="container">
         <h1 className="text-center bg-gradient-to-r from-emerald-300 to-sky-400 bg-clip-text text-transparent uppercase text-xl">
           About Me
